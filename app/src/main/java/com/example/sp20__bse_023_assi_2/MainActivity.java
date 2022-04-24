@@ -12,16 +12,16 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     private String code = "1234";
     private TextView txt_code;
-    private Button btn_1;
-    private Button btn_2;
-    private Button btn_3;
-    private Button btn_4;
-    private Button btn_5;
-    private Button btn_6;
-    private Button btn_7;
-    private Button btn_8;
-    private Button btn_9;
-    private Button btn_0;
+    private Button num_1;
+    private Button num_2;
+    private Button num_3;
+    private Button num_4;
+    private Button num_5;
+    private Button num_6;
+    private Button num_7;
+    private Button num_8;
+    private Button num_9;
+    private Button num_0;
     private Button btn_back;
     private Button btn_open;
 
@@ -35,16 +35,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         txt_code = findViewById(R.id.txt_code);
-        btn_1 = findViewById(R.id.btn_1);
-        btn_2 = findViewById(R.id.btn_2);
-        btn_3 = findViewById(R.id.btn_3);
-        btn_4 = findViewById(R.id.btn_4);
-        btn_5 = findViewById(R.id.btn_5);
-        btn_6 = findViewById(R.id.btn_6);
-        btn_7 = findViewById(R.id.btn_7);
-        btn_8 = findViewById(R.id.btn_8);
-        btn_9 = findViewById(R.id.btn_9);
-        btn_0 = findViewById(R.id.btn_0);
+        num_1 = findViewById(R.id.num_1);
+        num_2 = findViewById(R.id.num_2);
+        num_3 = findViewById(R.id.num_3);
+        num_4 = findViewById(R.id.num_4);
+        num_5 = findViewById(R.id.num_5);
+        num_6 = findViewById(R.id.num_6);
+        num_7 = findViewById(R.id.num_7);
+        num_8 = findViewById(R.id.num_8);
+        num_9 = findViewById(R.id.num_9);
+        num_0 = findViewById(R.id.num_0);
         btn_back = findViewById(R.id.btn_back);
         btn_open = findViewById(R.id.btn_open);
     }
@@ -60,61 +60,61 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        btn_1.setOnClickListener(new View.OnClickListener() {
+        num_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setText(1);
             }
         });
-        btn_2.setOnClickListener(new View.OnClickListener() {
+        num_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setText(2);
             }
         });
-        btn_3.setOnClickListener(new View.OnClickListener() {
+        num_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setText(3);
             }
         });
-        btn_4.setOnClickListener(new View.OnClickListener() {
+        num_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setText(4);
             }
         });
-        btn_5.setOnClickListener(new View.OnClickListener() {
+        num_5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setText(5);
             }
         });
-        btn_6.setOnClickListener(new View.OnClickListener() {
+        num_6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setText(6);
             }
         });
-        btn_7.setOnClickListener(new View.OnClickListener() {
+        num_7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setText(7);
             }
         });
-        btn_8.setOnClickListener(new View.OnClickListener() {
+        num_8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setText(8);
             }
         });
-        btn_9.setOnClickListener(new View.OnClickListener() {
+        num_9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setText(9);
             }
         });
-        btn_0.setOnClickListener(new View.OnClickListener() {
+        num_0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setText(0);
