@@ -14,4 +14,5 @@
     <string name="btn_back">Back</string>
     <string name="btn_open">Open</string>
     <string name="welcome_txt">Welcome to your safe</string>
+    <string name="_0000">0000</string>
 </resources>
